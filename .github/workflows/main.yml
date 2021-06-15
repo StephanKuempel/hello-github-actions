@@ -9,3 +9,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+      - name: Run build script
+        run: echo "Another Hello action"
+        shell: bash
